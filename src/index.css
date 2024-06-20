@@ -29,7 +29,7 @@
   }
 
   .hero-section{
-    background-image: url(/imgs/hero-bg.svg);
+    background-image: url(/imgs/hero-bg.png);
     min-height: 90svh;
     isolation: isolate;
     overflow: clip;
