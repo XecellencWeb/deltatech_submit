@@ -10,7 +10,7 @@ const MobileNavbar = ({ setter }: { setter: (value: any) => void }) => {
 
         onClick={()=>setter(false)}
           src="/imgs/close.png"
-          className="w-8"
+          className="w-4"
           alt="logo"
         ></img>
       </div>
