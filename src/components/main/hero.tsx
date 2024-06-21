@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import SimpleButton, { GhostButton } from "../buttons";
 import PageHeading, { ColorHeading, PageHeading2 } from "../heading";
 import PageCard from "../card";
+import PageCounter from "../counter";
 
 const PageSection = ({
   children,
@@ -117,7 +118,7 @@ const Hero = () => {
       <PageSection>
         <PageHeading2
           title="Event Schedule"
-          text2="The Enugu TxE Summit 2023 will be a one day event focusing on variety of different themes."
+          text2="The Delta tech Summit 2024 will be a one day event focusing on variety of different themes."
           subtitle="18th November, 2024"
         />
 
@@ -212,6 +213,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+      </PageSection>
+      <PageSection>
+        <div className="grid grid-cols-4 gap-5">
+          <PageCounter property="Attendees" value={24}/>
         </div>
       </PageSection>
     </>
