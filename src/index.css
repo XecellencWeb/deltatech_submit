@@ -28,14 +28,43 @@
     transform-origin: right;
   }
 
-  .hero-section{
+  .hero-section {
     background-image: url(/imgs/hero-bg.png);
     min-height: 90svh;
     isolation: isolate;
     overflow: clip;
   }
 
-  .bg-teach-image{
+  .bullet{
+    @apply relative;
+
+    &::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      translate: -50% 50%;
+      @apply w-4 bg-green-500 border-blue-500 border-2 rounded-lg aspect-square;
+    }
+  }
+
+  .card-design {
+    --shadow-offset: 0.3rem;
+    --shadow-color: #fff7;
+    scale: .95;
+    transition: scale 500ms;
+    @apply bg-gray-700 p-6 rounded-lg;
+    box-shadow: inset calc(-1 * var(--shadow-offset)) 0 1rem var(--shadow-color),
+      inset var(--shadow-offset) 0 1rem var(--shadow-color),
+      inset 0 calc(-1 * var(--shadow-offset)) 1rem var(--shadow-color),
+      inset 0 var(--shadow-offset) 1rem var(--shadow-color);
+
+      &:hover{
+        scale: 1;
+      }
+  }
+
+  .bg-teach-image {
     background-image: url(/imgs/teach-one.jpeg);
     background-size: cover;
     border-radius: 2rem;
@@ -43,23 +72,24 @@
     position: relative;
     z-index: -10;
     translate: 100% 100%;
-    animation: to-position 500ms ease-in forwards, bg-change 10s 700ms linear infinite;
+    animation: to-position 500ms ease-in forwards,
+      bg-change 10s 700ms linear infinite;
   }
 
   @keyframes bg-change {
-
-    0%,50%{
+    0%,
+    50% {
       background-image: url(/imgs/teach-one.jpeg);
     }
 
-    51%,100%{
+    51%,
+    100% {
       background-image: url(/imgs/teach-two.svg);
     }
-    
   }
 
   @keyframes to-position {
-    100%{
+    100% {
       translate: 0 0;
     }
   }
