@@ -27,8 +27,8 @@ const Hero = () => {
               Entrepreneurship Summit 2024
             </h1>
             <p className="text-white  mt-5">
-              The Delta Tech and Entrepreneurship (TxE) Summit 2nd edition.
-              Delta TxE aims to ignite innovation, foster collaboration, and
+              The Delta Tech and Entrepreneurship Summit 2nd edition.
+              Delta Tech aims to ignite innovation, foster collaboration, and
               empower the local entrepreneurial community. The summit aims to
               drive economic growth and position Delta as a leading center for
               innovation in South East, Nigeria.
@@ -86,7 +86,7 @@ const Hero = () => {
       </div>
 
       <PageSection>
-        <PageHeading title="Event Highlights" subtitle="TxE Summit 2024" />
+        <PageHeading title="Event Highlights" subtitleSummit 2024" />
         <div className="grid justify-center lg:grid-cols-9 gap-5">
           <PageCard
             className="lg:col-span-2"
