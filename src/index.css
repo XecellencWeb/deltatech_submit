@@ -35,6 +35,15 @@
     overflow: clip;
   }
 
+  .page-links a{
+    transition: color 300ms, translate 500ms;
+
+    &:hover{
+      @apply text-blue-500;
+      translate: 0 -10%;
+    }
+  }
+
   .bullet{
     @apply relative;
 

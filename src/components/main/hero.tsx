@@ -27,11 +27,11 @@ const Hero = () => {
               Entrepreneurship Summit 2024
             </h1>
             <p className="text-white  mt-5">
-              The Delta Tech and Entrepreneurship Summit 2nd edition.
-              Delta Tech aims to ignite innovation, foster collaboration, and
-              empower the local entrepreneurial community. The summit aims to
-              drive economic growth and position Delta as a leading center for
-              innovation in South East, Nigeria.
+              The Delta Tech and Entrepreneurship Summit 2nd edition. Delta Tech
+              aims to ignite innovation, foster collaboration, and empower the
+              local entrepreneurial community. The summit aims to drive economic
+              growth and position Delta as a leading center for innovation in
+              South East, Nigeria.
             </p>
 
             <div className="flex flex-wrap gap-5 mt-8">
@@ -86,7 +86,10 @@ const Hero = () => {
       </div>
 
       <PageSection>
-        <PageHeading title="Event Highlights" subtitleSummit 2024" />
+        <PageHeading
+          title="Event Highlights"
+          subtitle="Delta Tech Summit 2024"
+        />
         <div className="grid justify-center lg:grid-cols-9 gap-5">
           <PageCard
             className="lg:col-span-2"
@@ -126,12 +129,12 @@ const Hero = () => {
           <div className="">
             <ColorHeading text="Enterprenuership" />
             <div className="flex flex-col gap-10">
-              <p className="max-w-72">
+              <p className="max-w-72 max-lg:pr-6">
                 A 1-day interactive workshop and fireside chat with leading
                 experts from leading tech companies including Google
               </p>
 
-              <div className="max-w-72">
+              <div className="max-w-72 max-lg:pr-6">
                 <b className="block mb-2">Idea Pitch Session</b>
                 <p className="">
                   Innovative businesses will be given an opportunity to pitch
@@ -139,14 +142,14 @@ const Hero = () => {
                   recieve feedback.
                 </p>
               </div>
-              <div className="max-w-72">
+              <div className="max-w-72 max-lg:pr-6">
                 <b className="block mb-2">Enterprenuership</b>
                 <p className="">
                   A 1-day interactive workshop and fireside chat with leading
                   experts from leading tech companies including Google
                 </p>
               </div>
-              <div className="max-w-72">
+              <div className="max-w-72 max-lg:pr-6">
                 <b className="block mb-2">Grants and Support for Startups</b>
                 <p className="">
                   Innovative businesses will stand a chance to be awarded seed
@@ -172,17 +175,16 @@ const Hero = () => {
                 <div className="w-12 bullet"></div>
                 <div className="">
                   <b className="block mb-2">In-demand skills</b>
-                  <p className="">
-                  Learn which skills are most sort after
-                  </p>
+                  <p className="">Learn which skills are most sort after</p>
                 </div>
               </div>
               <div className="flex gap-2">
                 <div className="w-12 bullet"></div>
                 <div className="">
-                  <b className="block mb-2">Learning opportunities & resources</b>
-                  <p className="">
-                  How and where to learn those skills</p>
+                  <b className="block mb-2">
+                    Learning opportunities & resources
+                  </b>
+                  <p className="">How and where to learn those skills</p>
                 </div>
               </div>
               <div className="flex gap-2">
@@ -190,7 +192,8 @@ const Hero = () => {
                 <div className="">
                   <b className="block mb-2">Securing employment</b>
                   <p className="">
-                  How to use your skills to work for global tech companies remotely from enugu and earn in dollars
+                    How to use your skills to work for global tech companies
+                    remotely from enugu and earn in dollars
                   </p>
                 </div>
               </div>
@@ -199,7 +202,8 @@ const Hero = () => {
                 <div className="">
                   <b className="block mb-2">Q&A with Top Tech Talents</b>
                   <p className="">
-                  Ask experienced tech employees questions and get feedback from them directly
+                    Ask experienced tech employees questions and get feedback
+                    from them directly
                   </p>
                 </div>
               </div>
@@ -208,7 +212,9 @@ const Hero = () => {
                 <div className="">
                   <b className="block mb-2">Scholarships & Devices</b>
                   <p className="">
-                  1000 scholarships and 200 devices to jumpstart training and career.</p>
+                    1000 scholarships and 200 devices to jumpstart training and
+                    career.
+                  </p>
                 </div>
               </div>
             </div>
@@ -216,9 +222,66 @@ const Hero = () => {
         </div>
       </PageSection>
       <PageSection>
-        <div className="grid grid-cols-4 gap-5">
-          <PageCounter property="Attendees" value={24}/>
+        <div className="grid grid-cols-4 max-lg:grid-cols-2 gap-5">
+          <PageCounter property="Attendees" value={24} unit="k" />
+          <PageCounter property="Tech Scholarships" value={500} />
+          <PageCounter property="Online Community" value={22} unit="k" />
+          <PageCounter property="Post Event Enrollment" value={1613} />
         </div>
+      </PageSection>
+      <PageSection>
+        <div className="flex gap-5">
+          <div className="w-32">
+            <button className=" p-3 mt-24 lg:mx-8 hover:bg-bgColor border-2 border-white rounded-full text-white hover:bg-gray-800 ">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"></path>
+              </svg>
+            </button>
+          </div>
+          <div className="w-full">
+            <PageHeading title="Meet our speakers" subtitle="well seasoned" />
+          </div>
+          <div className="w-32">
+            <button className="p-3 mt-24 lg:mx-8 hover:bg-bgColor border-2 border-white rounded-full text-white hover:bg-gray-800">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </PageSection>
+
+      <PageSection>
+        <PageHeading title="Gallery" subtitle="Delta Tech Summit 2023"/>
+        <div className="grid grid-cols-12 gap-2">
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg lg:col-start-2 col-span-6 lg:col-span-5 "/>
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 "/>
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 lg:col-start-2"/>
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 "/>
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-4 "/>
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-4 "/>
+          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-4 "/>
+        </div>
+      </PageSection>
+
+      <PageSection>
+        <PageHeading title="Past attendees testimonials" subtitle="Delta Tech Summit 2023"/>
       </PageSection>
     </>
   );
