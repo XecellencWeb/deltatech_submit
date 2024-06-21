@@ -3,7 +3,7 @@ import SimpleButton from "../buttons";
 const Navbar = () => {
   return (
     <div className="flex z-10 w-auto sticky top-0 py-4 px-8 justify-between items-center bg-black">
-      <img src="/imgs/logo.svg" alt="site logo" className="w-24" />
+      <img src="/imgs/logo.jpg" alt="site logo" className="w-32" />
       <div className="flex gap-5 max-lg:hidden font-semibold">
         <a href="/#event-schedule">Event Schedule</a>
         <a href="/#speakers">Speakers</a>
