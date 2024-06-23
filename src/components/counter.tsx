@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import { InView, useInView } from "react-intersection-observer";
+import { useRef, useState } from "react";
+import { InView } from "react-intersection-observer";
 
 const PageCounter = ({
   property,
