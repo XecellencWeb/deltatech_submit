@@ -28,8 +28,8 @@ const PageCounter = ({
     <InView
       as="div"
       threshold={1}
-      onChange={(inview, entry) => {
-        entry?.isIntersecting ? playCounter() : stopCounter();
+      onChange={(inview) => {
+        inview ? playCounter() : stopCounter();
       }}
       className="flex flex-col gap-5"
     >
