@@ -32,7 +32,7 @@ const TestimonialSlider = () => {
   const [current,setCurrent] = useState(0)
 
   return <div className="w-screen overflow-clip mb-4 relative">
-    <div className="flex justify-between w-[98.5vw] absolute lg:-translate-y-1/2 top-1/2 z-50">
+    <div className="flex justify-between w-[98.5vw] absolute lg:-translate-y-1/2 -translate-y-[3rem] top-1/2 z-10">
         <img src="/imgs/arrow-left.svg" onClick={()=>setCurrent(prev=>prev==0?testimonials.length-1:prev-1)}/>
         <img src="/imgs/arrow-right.svg" onClick={()=>setCurrent(prev=>prev==testimonials.length - 1?0:prev+1)}/>
     </div>
