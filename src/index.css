@@ -40,7 +40,7 @@
     
 
     img{
-      @apply absolute bottom-0 -right-4 w-64;
+      @apply absolute bottom-0 -right-4 w-56;
     }
 
     &:nth-child(1),&:nth-child(5){
