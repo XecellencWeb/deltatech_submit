@@ -1,4 +1,4 @@
-import { useState } from "react";
+byimport { useState } from "react";
 
 const testimonials = [
   [
@@ -45,7 +45,7 @@ const TestimonialSlider = () => {
                 <div className="bg-white p-20">
                     <img src="/imgs/testimonies/1.png" className="w-72 rounded-full block mx-auto"/>
                 </div>
-                <div className="lg:col-span-2 flex flex-col gap-5  py-40 lg:pr-56 px-12 lg:px-20 bg-green-500 quotes">
+                <div className="lg:col-span-2 flex flex-col gap-5  py-40 lg:pr-56 px-4 lg:px-20 bg-green-500 quotes">
                     <h4 className="font-bold text-2xl uppercase">{a[0]}</h4>
                     <p className="font-semibold">{a[1]}</p>
                     <p className="font-semibold">{a[2]}</p>
