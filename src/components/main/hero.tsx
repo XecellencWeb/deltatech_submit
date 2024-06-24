@@ -8,7 +8,7 @@ export const PageSection = ({
   children: ReactNode;
   className?: string;
 }) => (
-  <section className={className + " container mx-auto px-2 mt-20"}>
+  <section className={className + " container mx-auto px-4 mt-20"}>
     {children}
   </section>
 );
@@ -23,7 +23,7 @@ const Hero = () => {
               <span className="text-blue-500">DELTA</span> Tech &amp;
               Entrepreneurship Summit 2024
             </h1>
-            <p className="text-white max-lg:text-base mt-5">
+            <p className="text-white max-lg:text-[.85rem] mt-5">
               The Delta Tech and Entrepreneurship Summit 2nd edition. Delta Tech
               aims to ignite innovation, foster collaboration, and empower the
               local entrepreneurial community. The summit aims to drive economic
