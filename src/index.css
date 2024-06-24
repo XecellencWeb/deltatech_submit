@@ -36,7 +36,7 @@
   .speaker-card{
     --amount1: 55;
     --amount2: 25;
-    @apply border-white border-[1px] bg-gray-500 rounded-lg shrink-0 grow-0 w-[22rem] relative h-[22rem] p-6 isolate overflow-clip;
+    @apply border-white border-[1px] bg-gray-500 rounded-lg shrink-0 grow-0 w-[18rem] relative h-[22rem] p-6 isolate overflow-clip;
     
 
     img{
