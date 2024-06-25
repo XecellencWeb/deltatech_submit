@@ -6,6 +6,7 @@ const SpeakerCard = ({
   speaker,
   image,
   isAnimated,
+
 }: {
   title: string;
   speaker: string;
@@ -13,7 +14,7 @@ const SpeakerCard = ({
   isAnimated: boolean;
 }) => (
   <div className={`speaker-card ${isAnimated && "move-animate"}`}>
-    <h5 className="text-base text-green-500 ">{title}</h5>
+    <h5 className="text-base ">{title}</h5>
     <h3 className="text-3xl font-bold">
       {speaker.split(" ")[0]}
       <br />

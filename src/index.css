@@ -19,6 +19,7 @@
 
   * {
     font-family: "Plus Jakarta Sans", sans-serif;
+    scroll-margin-top: 10rem;
   }
 }
 
@@ -36,11 +37,23 @@
   .speaker-card{
     --amount1: 55;
     --amount2: 25;
-    @apply border-white border-[1px] bg-gray-500 rounded-lg shrink-0 grow-0 w-[18rem] relative h-[22rem] p-6 isolate overflow-clip;
+    background-color: #4f4f4f;
+    @apply border-white border-[1px] rounded-lg shrink-0 grow-0 w-[18rem] relative h-[22rem] p-6 isolate overflow-clip;
     
-
+    h5{
+      @apply text-blue-500;
+    }
     img{
       @apply absolute bottom-0 -right-4 w-56;
+    }
+
+    &:nth-child(1),&:nth-child(2),&:nth-child(4),&:nth-child(5){
+      h5{
+        @apply text-green-500;
+      }
+      &::before{
+        @apply bg-green-500;
+      }
     }
 
     &:nth-child(1),&:nth-child(5){
@@ -105,19 +118,18 @@
       position: absolute;
       font-size: 1000%;
       opacity: .5;
+      @apply max-lg:text-[500%]
     }
 
     &::before{
         content: open-quote;
         top: 0;
-        left: 5rem;
-        @apply max-lg:-top-10 max-lg:left-10;
+        left: 2rem;
     }
     &::after{
       content: close-quote;
       bottom: 0;
-      right: 12rem;
-      @apply max-lg:-bottom-24;
+      right: 2rem;
     }
   }
 

@@ -4,11 +4,13 @@ import SimpleButton, { GhostButton } from "../buttons";
 export const PageSection = ({
   children,
   className,
+  id
 }: {
   children: ReactNode;
   className?: string;
+  id?:string
 }) => (
-  <section className={className + " container mx-auto px-4 mt-20"}>
+  <section id={id} className={className + " container mx-auto px-4 mt-20"}>
     {children}
   </section>
 );
@@ -16,7 +18,7 @@ export const PageSection = ({
 const Hero = () => {
   return (
     <>
-      <div className="hero-section">
+      <div id="top" className="hero-section">
         <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-2">
           <div className="shrink grow basis-5 pt-10 lg:pt-24">
             <h1 className="text-4xl md:text-6xl text-white font-bold">

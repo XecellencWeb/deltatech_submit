@@ -10,7 +10,7 @@ import Speakers from './speakers'
 const Body = () => {
   return (
     <>
-    <PageSection>
+    <PageSection id='event'>
         <PageHeading
           title="Event Highlights"
           subtitle="Delta Tech Summit 2024"
@@ -43,7 +43,7 @@ const Body = () => {
         </div>
       </PageSection>
 
-      <PageSection>
+      <PageSection id='event-schedule'>
         <PageHeading2
           title="Event Schedule"
           text2="The Delta tech Summit 2024 will be a one day event focusing on variety of different themes."
@@ -154,7 +154,7 @@ const Body = () => {
           <PageCounter property="Post Event Enrollment" value={1613} />
         </div>
       </PageSection>
-      <PageSection>
+      <PageSection id='speakers'>
         
         <Speakers/>
       </PageSection>
@@ -176,7 +176,7 @@ const Body = () => {
         </div>
       </PageSection>
 
-      <PageSection>
+      <PageSection id='testimonials'>
         <PageHeading title="Past attendees testimonials" subtitle="Delta Tech Summit 2023"/>
       </PageSection>
       <TestimonialSlider/>

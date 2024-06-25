@@ -1,3 +1,4 @@
+import { scrollToSection } from "../../functions/navigator";
 import { ColorHeading } from "../heading";
 
 const Footer = () => {
@@ -31,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="">
         <div className="flex mt-8 text-2xl justify-end">
-        <svg
+        <svg onClick={()=>scrollToSection('top')}
           stroke="currentColor"
           fill="currentColor"
           stroke-width="0"

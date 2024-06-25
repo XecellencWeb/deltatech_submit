@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SimpleButton from "../buttons";
+import { scrollToSection } from "../../functions/navigator";
 
 const MobileNavbar = ({ setter }: { setter: (value: any) => void }) => {
   return (
@@ -7,18 +8,51 @@ const MobileNavbar = ({ setter }: { setter: (value: any) => void }) => {
       <div className="flex justify-end mr-4">
         {" "}
         <img
-
-        onClick={()=>setter(false)}
+          onClick={() => setter(false)}
           src="/imgs/close.png"
           className="w-4"
           alt="logo"
         ></img>
       </div>
-      <a href="/#event-schedule" className="font-bold ml-8">Event Schedule</a>
-          <a href="/#speakers" className="font-bold ml-8">Speakers</a>
-          <a href="/#testimonials" className="font-bold ml-8">Testimonials</a>
-          <a href="/#join-our-community" className="font-bold ml-8">Join Our Community</a>
-          <img src="/imgs/logo.jpg" className="w-56 mt-auto animate-bounce mb-4"/>
+      <a
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("event-schedule");
+          setter(false);
+        }}
+        href="/#event-schedule"
+        className="font-bold ml-8"
+      >
+        Event Schedule
+      </a>
+      <a
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("speakers");
+
+          setter(false);
+        }}
+        href="/#speakers"
+        className="font-bold ml-8"
+      >
+        Speakers
+      </a>
+      <a
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("testimonials");
+
+          setter(false);
+        }}
+        href="/#testimonials"
+        className="font-bold ml-8"
+      >
+        Testimonials
+      </a>
+      <a href="/#join-our-community" className="font-bold ml-8">
+        Join Our Community
+      </a>
+      <img src="/imgs/logo.jpg" className="w-56 mt-auto animate-bounce mb-4" />
     </div>
   );
 };
@@ -30,9 +64,33 @@ const Navbar = () => {
       <div className="flex z-10 w-auto sticky top-0 py-4 px-4 lg:px-8 justify-between items-center bg-black">
         <img src="/imgs/logo.jpg" alt="site logo" className="w-32" />
         <div className="flex gap-5 max-lg:hidden font-semibold page-links">
-          <a href="/#event-schedule">Event Schedule</a>
-          <a href="/#speakers">Speakers</a>
-          <a href="/#testimonials">Testimonials</a>
+          <a
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("event-schedule");
+            }}
+            href="/#event-schedule"
+          >
+            Event Schedule
+          </a>
+          <a
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("speakers");
+            }}
+            href="/#speakers"
+          >
+            Speakers
+          </a>
+          <a
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("testimonials");
+            }}
+            href="/#testimonials"
+          >
+            Testimonials
+          </a>
           <a href="/#join-our-community">Join Our Community</a>
         </div>
         <SimpleButton
@@ -56,7 +114,7 @@ const Navbar = () => {
         )}
       </div>
 
-      {isActive && <MobileNavbar setter={setIsActive}/>}
+      {isActive && <MobileNavbar setter={setIsActive} />}
     </>
   );
 };
