@@ -43,7 +43,7 @@ const TestimonialSlider = () => {
         testimonials.map((a,i)=>(
             <div key={i} className="grid lg:grid-cols-3 w-screen shrink-0 grow-0">
                 <div className="bg-white p-20">
-                    <img src="/imgs/testimonies/1.png" className=" w-56 lg:w-72 rounded-full block mx-auto"/>
+                    <img src={`/imgs/testimonies/${i+1}.png`} className=" w-56 lg:w-72 rounded-full block mx-auto"/>
                 </div>
                 <div className="lg:col-span-2 flex flex-col gap-5 py-12 lg:py-40 lg:pr-56 px-2 lg:px-20 bg-green-500 quotes">
                     <h4 className="font-bold lg:text-2xl max-lg:text-center uppercase">{a[0]}</h4>
