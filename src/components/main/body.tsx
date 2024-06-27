@@ -166,13 +166,13 @@ const Body = () => {
       <PageSection>
         <PageHeading title="Gallery" subtitle="Delta Tech Summit 2023"/>
         <div className="grid grid-cols-12 gap-2">
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg lg:col-start-2 col-span-6 lg:col-span-5 "/>
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 "/>
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 lg:col-start-2"/>
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 "/>
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-4 "/>
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-4 "/>
-          <img src="/imgs/teach-one.jpeg" className="object-cover aspect-video rounded-lg col-span-4 "/>
+          <img src="/imgs/gallery/1.jpg" className="object-cover aspect-video rounded-lg lg:col-start-2 col-span-6 lg:col-span-5 "/>
+          <img src="/imgs/gallery/2.jpg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 "/>
+          <img src="/imgs/gallery/3.jpg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 lg:col-start-2"/>
+          <img src="/imgs/gallery/4.jpg" className="object-cover aspect-video rounded-lg col-span-6 lg:col-span-5 "/>
+          <img src="/imgs/gallery/5.jpg" className="object-cover aspect-video rounded-lg col-span-4 "/>
+          <img src="/imgs/gallery/6.jpg" className="object-cover aspect-video rounded-lg col-span-4 "/>
+          <img src="/imgs/gallery/7.jpg" className="object-cover aspect-video rounded-lg col-span-4 "/>
         </div>
       </PageSection>
 

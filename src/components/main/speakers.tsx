@@ -27,29 +27,29 @@ const SpeakerCard = ({
 const Speakers = () => {
   const [speakerState, setSpeakerState] = useState([
     {
-      title: "Founter, TxE Africa",
-      speaker: "Williams Uchembah",
-      image: "/imgs/1.png",
+      title: "Head of Digital Marketing, Interswitch",
+      speaker: "Babatunde Fabio",
+      image: "/imgs/speakers/1.png",
     },
     {
-      title: "Founter, TxE Africa",
-      speaker: "Williams Uchembah",
-      image: "/imgs/1.png",
+      title: "Co-Founder Gokuset",
+      speaker: "Abidemi Babaleye",
+      image: "/imgs/speakers/2.png",
     },
     {
-      title: "Founter, TxE Africa",
-      speaker: "Williams Uchembah",
-      image: "/imgs/1.png",
+      title: "CEO Forte Karis brands",
+      speaker: "Nonso Ozuzu",
+      image: "/imgs/speakers/3.png",
     },
     {
-      title: "Founter, TxE Africa",
-      speaker: "Williams Uchembag",
-      image: "/imgs/1.png",
+      title: "VP, International Growth and Expansion MAX",
+      speaker: "Gbolahan Fadipe",
+      image: "/imgs/speakers/4.png",
     },
     {
-      title: "Founter, TxE Africa",
-      speaker: "Williams Uchembah",
-      image: "/imgs/1.png",
+      title: "Card products and logistics, Moniepoint",
+      speaker: "Philip Obianuju",
+      image: "/imgs/speakers/5.png",
     },
   ]);
   const [isAnimated, setIsAnimated] = useState(false);

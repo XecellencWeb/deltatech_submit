@@ -44,7 +44,7 @@
       @apply text-blue-500;
     }
     img{
-      @apply absolute bottom-0 -right-4 w-56;
+      @apply absolute bottom-0 -right-4 w-56 h-56 object-cover object-left-top;
     }
 
     &:nth-child(1),&:nth-child(2),&:nth-child(4),&:nth-child(5){

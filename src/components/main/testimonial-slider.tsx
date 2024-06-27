@@ -2,29 +2,29 @@ import { useState } from "react";
 
 const testimonials = [
   [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quis, maxime debitis ut atque pariatur magni saepe! Sit, illum molestiae distinctio quidem suscipit nemo cupiditate consectetur. Similique officiis cum voluptas!",
-    "Lorem ipsum dolor",
+    "I Gained insights and connection through this program",
+    "I was blown away by the caliber of speakers and attendees at this year's tech summit. The insights and connections I gained were invaluable!",
+    "- Esther, Front and Backend Developer",
   ],
   [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quis, maxime debitis ut atque pariatur magni saepe! Sit, illum molestiae distinctio quidem suscipit nemo cupiditate consectetur. Similique officiis cum voluptas!",
-    "Lorem ipsum dolor",
+    "The program was a game-changer for my business",
+    "The tech summit was a game-changer for my business. I learned about the latest trends and innovations, and made some fantastic new connections.",
+    " - David, Tech Enthusiast",
   ],
   [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quis, maxime debitis ut atque pariatur magni saepe! Sit, illum molestiae distinctio quidem suscipit nemo cupiditate consectetur. Similique officiis cum voluptas!",
-    "Lorem ipsum dolor",
+    "I entered a new level in my career as a result of the program",
+    "The summit was incredibly well-organized and the keynote speakers were inspiring. I left feeling motivated and equipped with new ideas to tackle our company's biggest challenges.",
+    "- Emily, Software Engineer",
   ],
   [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quis, maxime debitis ut atque pariatur magni saepe! Sit, illum molestiae distinctio quidem suscipit nemo cupiditate consectetur. Similique officiis cum voluptas!",
-    "Lorem ipsum dolor",
+    "I gained new skills that changed my work experience",
+    "The tech summit was a fantastic opportunity to network with other professionals in the field and learn about the latest advancements in technology. I'm already looking forward to next year's event!",
+    "- James, front end developer",
   ],
   [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing",
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quis, maxime debitis ut atque pariatur magni saepe! Sit, illum molestiae distinctio quidem suscipit nemo cupiditate consectetur. Similique officiis cum voluptas!",
-    "Lorem ipsum dolor",
+    "I gained knowledge into a new level in my career",
+    "The summit is a must-attend event for anyone in the tech industry. The panels, workshops, and keynotes were all top-notch and provided a wealth of knowledge and insights.",
+    "- Gabriel, Tech Enthusiast",
   ],
 ];
 
