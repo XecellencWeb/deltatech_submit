@@ -94,6 +94,7 @@ const Navbar = () => {
           <a href="/#join-our-community">Join Our Community</a>
         </div>
         <SimpleButton
+          linkText="https://chat.whatsapp.com/JGQnks1gWcV9YNRvrb5yqW"
           className="max-w-64 w-full max-lg:hidden"
           buttonText="Become a Volunteer"
         />
