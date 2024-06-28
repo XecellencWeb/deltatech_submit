@@ -20,25 +20,25 @@ const Body = () => {
             className="lg:col-span-2"
             heading="Business Grant"
             desc="Top Qualified Applicants & Participants will be going home with Business Grants 🎉🏆"
-            image="/imgs/teach-one.jpeg"
+            image="/imgs/grant.jpg"
           />
           <PageCard
             className="lg:col-span-3"
             heading="Free Laptops"
             desc="Top Qualified Applicants & Participants will be going home with Laptops 🎉🏆"
-            image="/imgs/teach-one-l.jpeg"
+            image="/imgs/free-laptop.jpg"
           />
           <PageCard
             className="lg:col-span-2"
             heading="Tech Scholarships"
             desc="Top Qualified Applicants & Participants will be going home with valuable scholarships 🎉🏆"
-            image="/imgs/teach-one.jpeg"
+            image="/imgs/scholarship.jpg"
           />
           <PageCard
             className="lg:col-span-2"
             heading="Get Certificate"
             desc="Earn a certificate of participation for joining our incredible tech event!"
-            image="/imgs/teach-one.jpeg"
+            image="/imgs/certificate.jpg"
           />
         </div>
       </PageSection>

@@ -13,12 +13,10 @@ const Footer = () => {
       <div className="flex flex-col gap-3">
         <b>Event Center</b>
         <p className="">
-          Golden Heart Centre,
-          <br />
-          Emene.
+        Eleganza Event Centre,<br/>Summit Road, <br/>Asaba Delta State
         </p>
         <b>Event Date</b>
-        <p className="">18th November 2024</p>
+        <p className="">18th Feb 2024</p>
       </div>
       <div className="flex flex-col gap-2">
         <b>Event Time</b>
@@ -53,7 +51,7 @@ const Footer = () => {
         The summit aims to drive economic growth and position Delta as a leading center for innovation in South East, Nigeria.
         </p>
         </div>
-        <p className="">&copy; Delta Tech Summit 2024</p>
+        <p className="">Powered by Spark Media Production.</p>
     </div>
     </div>
   );
