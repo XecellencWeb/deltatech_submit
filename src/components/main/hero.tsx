@@ -19,8 +19,8 @@ const Hero = () => {
   return (
     <>
       <div id="top" className="hero-section">
-        <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-2">
-          <div className="shrink grow basis-5 pt-10 lg:pt-24">
+        <div className="container  mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-2">
+          <div className="min-h-screen flex flex-col justify-center">
             <h1 className="text-4xl md:text-6xl text-white font-bold">
               <span className="text-blue-500">DELTA</span> Tech &amp;
               Entrepreneurship Summit 2024
