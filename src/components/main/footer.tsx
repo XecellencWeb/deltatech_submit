@@ -16,15 +16,15 @@ const Footer = () => {
         Eleganza Event Centre,<br/>Summit Road, <br/>Asaba Delta State
         </p>
         <b>Event Date</b>
-        <p className="">18th Feb 2024</p>
+        <p className="">July 7th and 8th,<br/>2024.</p>
       </div>
       <div className="flex flex-col gap-2">
         <b>Event Time</b>
         <p className="">9:00 am</p>
-        <p className="">About</p>
-        <p className="">Achievements</p>
-        <p className="">Speakers</p>
-        <p className="">Event</p>
+        <p className="" onClick={()=>scrollToSection('top')}>About</p>
+        <p className="" onClick={()=>scrollToSection('gallery')}>Achievements</p>
+        <p className="" onClick={()=>scrollToSection('speakers')}>Speakers</p>
+        <p className="" onClick={()=>scrollToSection('event-schedule')}>Event</p>
       </div>
       
       </div>

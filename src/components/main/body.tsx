@@ -163,7 +163,7 @@ const Body = () => {
 
       
 
-      <PageSection>
+      <PageSection id='gallery'>
         <PageHeading title="Gallery" subtitle="Delta Tech Summit 2023"/>
         <div className="grid grid-cols-12 gap-2">
           <img src="/imgs/gallery/1.jpg" className="object-cover aspect-video rounded-lg lg:col-start-2 col-span-6 lg:col-span-5 "/>

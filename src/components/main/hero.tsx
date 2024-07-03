@@ -4,11 +4,11 @@ import SimpleButton, { GhostButton } from "../buttons";
 export const PageSection = ({
   children,
   className,
-  id
+  id,
 }: {
   children: ReactNode;
   className?: string;
-  id?:string
+  id?: string;
 }) => (
   <section id={id} className={className + " container mx-auto px-4 mt-20"}>
     {children}
@@ -35,10 +35,12 @@ const Hero = () => {
 
             <div className="flex flex-wrap gap-5 mt-8">
               <GhostButton
+                linkText="https://chat.whatsapp.com/JGQnks1gWcV9YNRvrb5yqW"
                 className="basis-[10rem] shrink grow"
                 buttonText="Get a Booth"
               />
               <SimpleButton
+                linkText="https://forms.gle/kj5mTRmjqEykYbqo9"
                 className="basis-[10rem] shrink grow"
                 buttonText="Register"
               />

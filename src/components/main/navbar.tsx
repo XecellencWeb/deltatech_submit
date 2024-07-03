@@ -49,7 +49,10 @@ const MobileNavbar = ({ setter }: { setter: (value: any) => void }) => {
       >
         Testimonials
       </a>
-      <a href="/#join-our-community" className="font-bold ml-8">
+      <a
+        href="https://chat.whatsapp.com/JGQnks1gWcV9YNRvrb5yqW"
+        className="font-bold ml-8"
+      >
         Join Our Community
       </a>
       <img src="/imgs/logo.jpg" className="w-56 mt-auto animate-bounce mb-4" />
@@ -91,7 +94,9 @@ const Navbar = () => {
           >
             Testimonials
           </a>
-          <a href="/#join-our-community">Join Our Community</a>
+          <a href="https://chat.whatsapp.com/JGQnks1gWcV9YNRvrb5yqW">
+            Join Our Community
+          </a>
         </div>
         <SimpleButton
           linkText="https://chat.whatsapp.com/JGQnks1gWcV9YNRvrb5yqW"

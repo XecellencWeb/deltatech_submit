@@ -4,14 +4,17 @@ export const GhostButton = (
   {
     buttonText,
     className,
+    linkText,
   }: {
     buttonText: string;
     className?: string;
+    linkText?: string;
   },
   Props: React.ButtonHTMLAttributes<HTMLButtonElement>
 ) => {
   return (
     <button
+    onClick={()=>location.href = linkText as string}
       {...Props}
       className={
         className +
